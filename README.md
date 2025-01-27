@@ -1,7 +1,7 @@
 # Robocin-InertialOdometry
 # MPU6050 Data Acquisition and Processing for Inertial Odometry
 
-This project acquires and processes data from an MPU6050 gyroscope and accelerometer for inertial odometry on a mobile robot, targeting RoboCup's Small Size League.
+This project acquires and processes data from an MPU6050 gyroscope and accelerometer for inertial odometry on a robot RoboCup's Small Size League.
 
 ## Overview
 
