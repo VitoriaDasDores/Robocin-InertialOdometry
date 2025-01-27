@@ -30,10 +30,25 @@ The firmware reads raw MPU6050 data, calibrates the gyroscope, converts the data
     - Sample Rate: 500Hz (fast movements)
     - Gyro Scale: ±1000°/s
     - Accel Scale: ±8g
+  
+## Validation
+https://docs.google.com/spreadsheets/d/15UAhusqmTekeYFRcJhxQUaSOYU4pnZHtHsBnsit3GCg/edit?usp=sharing
 
 ## Development
 
-Mbed OS was chosen for its hardware abstraction and team compatibility, after initial work with STM32CubeIDE.  A custom MPU6050 library (adapted from the manufacturer's) was used.
+Mbed OS was chosen for its hardware abstraction and team compatibility, after initial work with STM32CubeIDE.  A custom MPU6050 library (https://os.mbed.com/users/213468891/code/MPU6050/docs/tip/classMPU6050.html) was used.
+
+## References
+
+https://os.mbed.com/users/213468891/code/MPU6050/docs/tip/classMPU6050.html	
+https://embarcados.com.br/calibracao-de-sensores-na-pratica/
+https://www2.decom.ufop.br/imobilis/sensores-imu-uma-abordagem-completa-parte-2/		
+https://calculareconverter.com.br/graus-para-radianos/	
+https://github.com/robocin/ssl-firmware/tree/ce19eda3d749f0ade35c57139934eda18b57cb55	
+https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf	
+https://docs.platformio.org/en/latest/frameworks/mbed.html	
+https://www.st.com/en/microcontrollers-microprocessors/stm32f767zi.html	
+
 
 A Google Sheet was employed to simulate data processing and validate the math in the absence of the physical sensor.
 
