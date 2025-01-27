@@ -34,6 +34,13 @@ The firmware reads raw MPU6050 data, calibrates the gyroscope, converts the data
 ## Validation
 https://docs.google.com/spreadsheets/d/15UAhusqmTekeYFRcJhxQUaSOYU4pnZHtHsBnsit3GCg/edit?usp=sharing
 
+![image](https://github.com/user-attachments/assets/b594a9bb-f42f-4637-97de-07268021af4a)
+
+![image](https://github.com/user-attachments/assets/847c9f12-ddbc-4b8f-a471-b26979c1e35e)
+
+![image](https://github.com/user-attachments/assets/29846a3c-2f96-409b-a500-5d9ebb190ef9)
+
+
 ## Development
 
 Mbed OS was chosen for its hardware abstraction and team compatibility, after initial work with STM32CubeIDE.  A custom MPU6050 library (https://os.mbed.com/users/213468891/code/MPU6050/docs/tip/classMPU6050.html) was used.
